@@ -836,7 +836,7 @@ namespace Ejercicio216_FInalSIM
 
             } else
             {
-                MessageBox.Show("Debe ingresar todos los datos");
+                MessageBox.Show("Por favor, ingrese todos los datos correctamente", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
@@ -854,19 +854,34 @@ namespace Ejercicio216_FInalSIM
             }
             else
             {
-                if (Convert.ToInt32(txtLlegadaClientes.Text) < 0 ||
-                Convert.ToInt32(txtTiempoAtencion.Text) < 0 ||
-                Convert.ToInt32(txtSegundosTiempoAtencion.Text) < 0 ||
-                Convert.ToInt32(txtTiempoTurnoEmpleado.Text) < 1 ||
-                Convert.ToInt32(txtTiempoCambioTurnoA.Text) <0 ||
-                Convert.ToInt32(txtTiempoCambioTurnoB.Text) < 0 ||
-                Convert.ToInt32(txtTiempoSimulacion.Text) < 0)
+                if (double.TryParse(txtLlegadaClientes.Text, out _) &&
+                    double.TryParse(txtTiempoAtencion.Text, out _) &&
+                    double.TryParse(txtSegundosTiempoAtencion.Text, out _) &&
+                    double.TryParse(txtTiempoTurnoEmpleado.Text, out _) &&
+                    double.TryParse(txtTiempoCambioTurnoA.Text, out _) &&
+                    double.TryParse(txtTiempoCambioTurnoB.Text, out _) &&
+                    double.TryParse(txtTiempoSimulacion.Text, out _))
                 {
-                    return false;
+                    if (Convert.ToInt32(txtLlegadaClientes.Text) < 0 ||
+                        Convert.ToInt32(txtTiempoAtencion.Text) < 0 ||
+                        Convert.ToInt32(txtSegundosTiempoAtencion.Text) < 0 ||
+                        Convert.ToInt32(txtTiempoTurnoEmpleado.Text) < 1 ||
+                        Convert.ToInt32(txtTiempoCambioTurnoA.Text) < 0 ||
+                        Convert.ToInt32(txtTiempoCambioTurnoB.Text) < 0 ||
+                        Convert.ToInt32(txtTiempoSimulacion.Text) < 0)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        return true;
+                    }
                 } else
                 {
-                    return true;
-                }      
+                    return false;
+                }
+
+                      
             }
         }
 
@@ -998,6 +1013,16 @@ namespace Ejercicio216_FInalSIM
         }
 
         private void labelSegundosTiempoAtencion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
