@@ -114,4 +114,15 @@
   <metadata name="PromedioEsperaClientes.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Un restaurante especializado en comidas rápidas tiene una ventanilla desde la cual atiende a los clientes en su
+vehículo. Llegan en promedio 28 clientes por hora. Se requieren 2 minutos en promedio para atender a un
+cliente. Los tiempos de llegada y atención son exponenciales.
+Cada 2 horas se cambia el empleado que atiende la ventanilla, se tarda en el proceso de cambio de 3 a 5 minutos
+uniformemente distribuidos.
+¿Cuál es la cola máxima?
+¿Cuál es el promedio de espera de los clientes?
+Si decidiéramos colocar un ayudante que acelere el tiempo de atención bajando los 2 minutos a 1 minuto 25
+segundos, ¿cómo mejora el sistema?, ¿seguimos teniendo cola?</value>
+  </data>
 </root>
