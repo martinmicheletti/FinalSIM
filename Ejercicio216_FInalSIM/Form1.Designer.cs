@@ -134,7 +134,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(19, 23);
+            this.label1.Location = new System.Drawing.Point(16, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(206, 21);
             this.label1.TabIndex = 0;
@@ -194,7 +194,7 @@ namespace Ejercicio216_FInalSIM
             dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dgvSimulacion.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dgvSimulacion.RowTemplate.Height = 25;
-            this.dgvSimulacion.Size = new System.Drawing.Size(1152, 627);
+            this.dgvSimulacion.Size = new System.Drawing.Size(1152, 505);
             this.dgvSimulacion.TabIndex = 0;
             // 
             // Reloj
@@ -347,9 +347,9 @@ namespace Ejercicio216_FInalSIM
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtLlegadaClientes);
-            this.groupBox1.Location = new System.Drawing.Point(16, 50);
+            this.groupBox1.Location = new System.Drawing.Point(16, 80);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(269, 73);
+            this.groupBox1.Size = new System.Drawing.Size(269, 81);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Llegada de clientes";
@@ -554,7 +554,7 @@ namespace Ejercicio216_FInalSIM
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(33, 22);
+            this.label10.Location = new System.Drawing.Point(32, 40);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 15);
             this.label10.TabIndex = 7;
@@ -562,7 +562,7 @@ namespace Ejercicio216_FInalSIM
             // 
             // txtTiempoSimulacion
             // 
-            this.txtTiempoSimulacion.Location = new System.Drawing.Point(163, 17);
+            this.txtTiempoSimulacion.Location = new System.Drawing.Point(162, 35);
             this.txtTiempoSimulacion.Name = "txtTiempoSimulacion";
             this.txtTiempoSimulacion.Size = new System.Drawing.Size(46, 23);
             this.txtTiempoSimulacion.TabIndex = 6;
@@ -572,7 +572,7 @@ namespace Ejercicio216_FInalSIM
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(215, 20);
+            this.label11.Location = new System.Drawing.Point(214, 38);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 15);
             this.label11.TabIndex = 10;
@@ -581,7 +581,7 @@ namespace Ejercicio216_FInalSIM
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(215, 49);
+            this.label12.Location = new System.Drawing.Point(214, 67);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(51, 15);
             this.label12.TabIndex = 13;
@@ -590,7 +590,7 @@ namespace Ejercicio216_FInalSIM
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(118, 50);
+            this.label13.Location = new System.Drawing.Point(117, 68);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(39, 15);
             this.label13.TabIndex = 12;
@@ -598,7 +598,7 @@ namespace Ejercicio216_FInalSIM
             // 
             // txtTiempoDesdeSimulacion
             // 
-            this.txtTiempoDesdeSimulacion.Location = new System.Drawing.Point(163, 46);
+            this.txtTiempoDesdeSimulacion.Location = new System.Drawing.Point(162, 64);
             this.txtTiempoDesdeSimulacion.Name = "txtTiempoDesdeSimulacion";
             this.txtTiempoDesdeSimulacion.Size = new System.Drawing.Size(46, 23);
             this.txtTiempoDesdeSimulacion.TabIndex = 11;
@@ -608,7 +608,7 @@ namespace Ejercicio216_FInalSIM
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(215, 78);
+            this.label14.Location = new System.Drawing.Point(214, 96);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(51, 15);
             this.label14.TabIndex = 16;
@@ -617,7 +617,7 @@ namespace Ejercicio216_FInalSIM
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(120, 78);
+            this.label15.Location = new System.Drawing.Point(119, 96);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(37, 15);
             this.label15.TabIndex = 15;
@@ -625,7 +625,7 @@ namespace Ejercicio216_FInalSIM
             // 
             // txtTiempoHastaSimulacion
             // 
-            this.txtTiempoHastaSimulacion.Location = new System.Drawing.Point(163, 75);
+            this.txtTiempoHastaSimulacion.Location = new System.Drawing.Point(162, 93);
             this.txtTiempoHastaSimulacion.Name = "txtTiempoHastaSimulacion";
             this.txtTiempoHastaSimulacion.Size = new System.Drawing.Size(46, 23);
             this.txtTiempoHastaSimulacion.TabIndex = 14;
@@ -636,7 +636,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(20, 9);
+            this.label16.Location = new System.Drawing.Point(16, 9);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(155, 15);
             this.label16.TabIndex = 17;
@@ -653,9 +653,9 @@ namespace Ejercicio216_FInalSIM
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label12);
             this.groupBox4.Controls.Add(this.txtTiempoDesdeSimulacion);
-            this.groupBox4.Location = new System.Drawing.Point(668, 30);
+            this.groupBox4.Location = new System.Drawing.Point(668, 9);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(290, 108);
+            this.groupBox4.Size = new System.Drawing.Size(290, 152);
             this.groupBox4.TabIndex = 18;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Simulacion";
@@ -664,10 +664,10 @@ namespace Ejercicio216_FInalSIM
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(16, 154);
+            this.tabControl1.Location = new System.Drawing.Point(16, 163);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1166, 661);
+            this.tabControl1.Size = new System.Drawing.Size(1166, 539);
             this.tabControl1.TabIndex = 19;
             // 
             // tabPage1
@@ -676,7 +676,7 @@ namespace Ejercicio216_FInalSIM
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1158, 633);
+            this.tabPage1.Size = new System.Drawing.Size(1158, 511);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tabla";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -701,7 +701,7 @@ namespace Ejercicio216_FInalSIM
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1158, 633);
+            this.tabPage2.Size = new System.Drawing.Size(1158, 511);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Especificación";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -728,7 +728,7 @@ namespace Ejercicio216_FInalSIM
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(37, 570);
+            this.label31.Location = new System.Drawing.Point(37, 480);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(755, 15);
             this.label31.TabIndex = 12;
@@ -738,7 +738,7 @@ namespace Ejercicio216_FInalSIM
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(37, 539);
+            this.label29.Location = new System.Drawing.Point(37, 465);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(418, 15);
             this.label29.TabIndex = 11;
@@ -748,7 +748,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label30.Location = new System.Drawing.Point(37, 506);
+            this.label30.Location = new System.Drawing.Point(35, 450);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(53, 15);
             this.label30.TabIndex = 10;
@@ -757,7 +757,7 @@ namespace Ejercicio216_FInalSIM
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(37, 463);
+            this.label28.Location = new System.Drawing.Point(37, 422);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(212, 15);
             this.label28.TabIndex = 9;
@@ -767,7 +767,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(35, 436);
+            this.label27.Location = new System.Drawing.Point(35, 407);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(35, 15);
             this.label27.TabIndex = 8;
@@ -776,7 +776,7 @@ namespace Ejercicio216_FInalSIM
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(37, 396);
+            this.label26.Location = new System.Drawing.Point(37, 374);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(205, 15);
             this.label26.TabIndex = 7;
@@ -785,7 +785,7 @@ namespace Ejercicio216_FInalSIM
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(37, 368);
+            this.label25.Location = new System.Drawing.Point(37, 359);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(120, 15);
             this.label25.TabIndex = 6;
@@ -831,7 +831,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(29, 343);
+            this.label20.Location = new System.Drawing.Point(28, 344);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(50, 15);
             this.label20.TabIndex = 1;
@@ -851,7 +851,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1194, 827);
+            this.ClientSize = new System.Drawing.Size(1194, 708);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label16);
