@@ -13,3 +13,6 @@ Para ejecutar el proyecto: Descargar todo el proyecto, luego ir a la siguiente r
 
 Otra alternativa:
 - Descargar el proyecto y abrir el archivo .sln en Visual Studio
+
+PARA PANTALLAS FULL HD (1920X1080): RAMA 'main'
+PARA PANTALLAS HD (1376X768): RAMA 'low-res'
