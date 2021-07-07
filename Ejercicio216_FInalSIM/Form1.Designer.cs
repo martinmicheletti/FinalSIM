@@ -29,24 +29,24 @@ namespace Ejercicio216_FInalSIM
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle106 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle107 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle108 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle93 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle94 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle95 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle96 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle97 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle99 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle100 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle101 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle102 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle103 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle104 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle105 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.dgvSimulacion = new System.Windows.Forms.DataGridView();
@@ -105,6 +105,8 @@ namespace Ejercicio216_FInalSIM
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -118,15 +120,6 @@ namespace Ejercicio216_FInalSIM
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSimulacion)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -141,7 +134,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(19, 9);
+            this.label1.Location = new System.Drawing.Point(19, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(206, 21);
             this.label1.TabIndex = 0;
@@ -149,14 +142,14 @@ namespace Ejercicio216_FInalSIM
             // 
             // dgvSimulacion
             // 
-            dataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle91.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle91.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle91.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle91.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle91.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle91.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSimulacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle91;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSimulacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvSimulacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSimulacion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Reloj,
@@ -178,29 +171,30 @@ namespace Ejercicio216_FInalSIM
             this.ColaMaxima,
             this.TiempoEsperaCliente,
             this.PromedioEsperaClientes});
-            dataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle106.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle106.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle106.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle106.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle106.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle106.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvSimulacion.DefaultCellStyle = dataGridViewCellStyle106;
-            this.dgvSimulacion.Location = new System.Drawing.Point(-1, 37);
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvSimulacion.DefaultCellStyle = dataGridViewCellStyle16;
+            this.dgvSimulacion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvSimulacion.Location = new System.Drawing.Point(3, 3);
             this.dgvSimulacion.Margin = new System.Windows.Forms.Padding(0);
             this.dgvSimulacion.Name = "dgvSimulacion";
-            dataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle107.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle107.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle107.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle107.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle107.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle107.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSimulacion.RowHeadersDefaultCellStyle = dataGridViewCellStyle107;
-            dataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dgvSimulacion.RowsDefaultCellStyle = dataGridViewCellStyle108;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSimulacion.RowHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgvSimulacion.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dgvSimulacion.RowTemplate.Height = 25;
-            this.dgvSimulacion.Size = new System.Drawing.Size(1650, 593);
+            this.dgvSimulacion.Size = new System.Drawing.Size(1152, 627);
             this.dgvSimulacion.TabIndex = 0;
             // 
             // Reloj
@@ -220,81 +214,81 @@ namespace Ejercicio216_FInalSIM
             // 
             // RNDCambioEmpleado
             // 
-            dataGridViewCellStyle92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.RNDCambioEmpleado.DefaultCellStyle = dataGridViewCellStyle92;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.RNDCambioEmpleado.DefaultCellStyle = dataGridViewCellStyle2;
             this.RNDCambioEmpleado.HeaderText = "RND Cambio Empleado";
             this.RNDCambioEmpleado.Name = "RNDCambioEmpleado";
             // 
             // TiempoCambioEmpleado
             // 
-            dataGridViewCellStyle93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.TiempoCambioEmpleado.DefaultCellStyle = dataGridViewCellStyle93;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.TiempoCambioEmpleado.DefaultCellStyle = dataGridViewCellStyle3;
             this.TiempoCambioEmpleado.HeaderText = "Tiempo Cambio Empleado";
             this.TiempoCambioEmpleado.Name = "TiempoCambioEmpleado";
             // 
             // ProximoResumenAtencion
             // 
-            dataGridViewCellStyle94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ProximoResumenAtencion.DefaultCellStyle = dataGridViewCellStyle94;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ProximoResumenAtencion.DefaultCellStyle = dataGridViewCellStyle4;
             this.ProximoResumenAtencion.HeaderText = "Proximo Resumen Atencion";
             this.ProximoResumenAtencion.Name = "ProximoResumenAtencion";
             // 
             // RNDLlegada
             // 
             this.RNDLlegada.DataPropertyName = "RNDLlegada";
-            dataGridViewCellStyle95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.RNDLlegada.DefaultCellStyle = dataGridViewCellStyle95;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.RNDLlegada.DefaultCellStyle = dataGridViewCellStyle5;
             this.RNDLlegada.HeaderText = "RND Llegada Cliente";
             this.RNDLlegada.Name = "RNDLlegada";
             // 
             // TiempoLlegadaCliente
             // 
             this.TiempoLlegadaCliente.DataPropertyName = "TiempoLlegadaCliente";
-            dataGridViewCellStyle96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.TiempoLlegadaCliente.DefaultCellStyle = dataGridViewCellStyle96;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.TiempoLlegadaCliente.DefaultCellStyle = dataGridViewCellStyle6;
             this.TiempoLlegadaCliente.HeaderText = "Tiempo Llegada Cliente";
             this.TiempoLlegadaCliente.Name = "TiempoLlegadaCliente";
             // 
             // ProximaLlegadaCliente
             // 
             this.ProximaLlegadaCliente.DataPropertyName = "ProximaLlegadaCliente";
-            dataGridViewCellStyle97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ProximaLlegadaCliente.DefaultCellStyle = dataGridViewCellStyle97;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.ProximaLlegadaCliente.DefaultCellStyle = dataGridViewCellStyle7;
             this.ProximaLlegadaCliente.HeaderText = "Proxima Llegada Cliente";
             this.ProximaLlegadaCliente.Name = "ProximaLlegadaCliente";
             // 
             // ColaAtencion
             // 
-            dataGridViewCellStyle98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ColaAtencion.DefaultCellStyle = dataGridViewCellStyle98;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ColaAtencion.DefaultCellStyle = dataGridViewCellStyle8;
             this.ColaAtencion.HeaderText = "Cola Atencion";
             this.ColaAtencion.Name = "ColaAtencion";
             // 
             // ClienteEnAtencion
             // 
-            dataGridViewCellStyle99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClienteEnAtencion.DefaultCellStyle = dataGridViewCellStyle99;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClienteEnAtencion.DefaultCellStyle = dataGridViewCellStyle9;
             this.ClienteEnAtencion.HeaderText = "Cliente En Atencion";
             this.ClienteEnAtencion.Name = "ClienteEnAtencion";
             // 
             // RNDAtencion
             // 
-            dataGridViewCellStyle100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.RNDAtencion.DefaultCellStyle = dataGridViewCellStyle100;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RNDAtencion.DefaultCellStyle = dataGridViewCellStyle10;
             this.RNDAtencion.HeaderText = "RND Atencion";
             this.RNDAtencion.Name = "RNDAtencion";
             // 
             // TiempoAtencion
             // 
-            dataGridViewCellStyle101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.TiempoAtencion.DefaultCellStyle = dataGridViewCellStyle101;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TiempoAtencion.DefaultCellStyle = dataGridViewCellStyle11;
             this.TiempoAtencion.HeaderText = "Tiempo Atencion";
             this.TiempoAtencion.Name = "TiempoAtencion";
             // 
             // ProximoFinAtencion
             // 
-            dataGridViewCellStyle102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ProximoFinAtencion.DefaultCellStyle = dataGridViewCellStyle102;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ProximoFinAtencion.DefaultCellStyle = dataGridViewCellStyle12;
             this.ProximoFinAtencion.HeaderText = "Proximo Fin Atencion";
             this.ProximoFinAtencion.Name = "ProximoFinAtencion";
             // 
@@ -318,29 +312,29 @@ namespace Ejercicio216_FInalSIM
             // 
             // ColaMaxima
             // 
-            dataGridViewCellStyle103.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ColaMaxima.DefaultCellStyle = dataGridViewCellStyle103;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ColaMaxima.DefaultCellStyle = dataGridViewCellStyle13;
             this.ColaMaxima.HeaderText = "Cola Maxima";
             this.ColaMaxima.Name = "ColaMaxima";
             // 
             // TiempoEsperaCliente
             // 
-            dataGridViewCellStyle104.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.TiempoEsperaCliente.DefaultCellStyle = dataGridViewCellStyle104;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TiempoEsperaCliente.DefaultCellStyle = dataGridViewCellStyle14;
             this.TiempoEsperaCliente.HeaderText = "Tiempo Espera Cliente";
             this.TiempoEsperaCliente.Name = "TiempoEsperaCliente";
             // 
             // PromedioEsperaClientes
             // 
-            dataGridViewCellStyle105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.PromedioEsperaClientes.DefaultCellStyle = dataGridViewCellStyle105;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.PromedioEsperaClientes.DefaultCellStyle = dataGridViewCellStyle15;
             this.PromedioEsperaClientes.HeaderText = "Promedio Espera Clientes";
             this.PromedioEsperaClientes.Name = "PromedioEsperaClientes";
             // 
             // simulacion
             // 
             this.simulacion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.simulacion.Location = new System.Drawing.Point(1462, 59);
+            this.simulacion.Location = new System.Drawing.Point(971, 54);
             this.simulacion.Name = "simulacion";
             this.simulacion.Size = new System.Drawing.Size(211, 60);
             this.simulacion.TabIndex = 2;
@@ -395,9 +389,9 @@ namespace Ejercicio216_FInalSIM
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.txtTiempoAtencion);
-            this.groupBox2.Location = new System.Drawing.Point(324, 50);
+            this.groupBox2.Location = new System.Drawing.Point(291, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(351, 73);
+            this.groupBox2.Size = new System.Drawing.Size(371, 73);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Atención de clientes";
@@ -467,9 +461,9 @@ namespace Ejercicio216_FInalSIM
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.txtTiempoTurnoEmpleado);
-            this.groupBox3.Location = new System.Drawing.Point(716, 50);
+            this.groupBox3.Location = new System.Drawing.Point(291, 80);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(371, 84);
+            this.groupBox3.Size = new System.Drawing.Size(371, 81);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Empleado de ventanilla";
@@ -642,7 +636,7 @@ namespace Ejercicio216_FInalSIM
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(1529, 14);
+            this.label16.Location = new System.Drawing.Point(20, 9);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(155, 15);
             this.label16.TabIndex = 17;
@@ -659,7 +653,7 @@ namespace Ejercicio216_FInalSIM
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label12);
             this.groupBox4.Controls.Add(this.txtTiempoDesdeSimulacion);
-            this.groupBox4.Location = new System.Drawing.Point(1126, 50);
+            this.groupBox4.Location = new System.Drawing.Point(668, 30);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(290, 108);
             this.groupBox4.TabIndex = 18;
@@ -673,20 +667,16 @@ namespace Ejercicio216_FInalSIM
             this.tabControl1.Location = new System.Drawing.Point(16, 154);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1664, 661);
+            this.tabControl1.Size = new System.Drawing.Size(1166, 661);
             this.tabControl1.TabIndex = 19;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.maskedTextBox4);
-            this.tabPage1.Controls.Add(this.maskedTextBox3);
-            this.tabPage1.Controls.Add(this.maskedTextBox2);
-            this.tabPage1.Controls.Add(this.maskedTextBox1);
             this.tabPage1.Controls.Add(this.dgvSimulacion);
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1656, 633);
+            this.tabPage1.Size = new System.Drawing.Size(1158, 633);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tabla";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -711,10 +701,29 @@ namespace Ejercicio216_FInalSIM
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1656, 633);
+            this.tabPage2.Size = new System.Drawing.Size(1158, 633);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Especificación";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(28, 13);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(63, 15);
+            this.label36.TabIndex = 14;
+            this.label36.Text = "Enunciado";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(28, 37);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(599, 135);
+            this.label35.TabIndex = 13;
+            this.label35.Text = resources.GetString("label35.Text");
             // 
             // label31
             // 
@@ -838,104 +847,19 @@ namespace Ejercicio216_FInalSIM
             this.label19.TabIndex = 0;
             this.label19.Text = "Eventos";
             // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(631, 143);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(44, 15);
-            this.label33.TabIndex = 7;
-            this.label33.Text = "Cliente";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(999, 143);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(60, 15);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "Empleado";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(388, 137);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(121, 15);
-            this.label32.TabIndex = 6;
-            this.label32.Text = "Cambio de Empleado";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(248, 13);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(302, 23);
-            this.maskedTextBox1.TabIndex = 20;
-            this.maskedTextBox1.Text = "Cambio de Empleado";
-            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(555, 13);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(296, 23);
-            this.maskedTextBox2.TabIndex = 21;
-            this.maskedTextBox2.Text = "Cliente";
-            this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(848, 13);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(502, 23);
-            this.maskedTextBox3.TabIndex = 22;
-            this.maskedTextBox3.Text = "Empleado";
-            this.maskedTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(1353, 13);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(296, 23);
-            this.maskedTextBox4.TabIndex = 23;
-            this.maskedTextBox4.Text = "Medidas";
-            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(28, 37);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(599, 135);
-            this.label35.TabIndex = 13;
-            this.label35.Text = resources.GetString("label35.Text");
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(28, 13);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(63, 15);
-            this.label36.TabIndex = 14;
-            this.label36.Text = "Enunciado";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1692, 827);
+            this.ClientSize = new System.Drawing.Size(1194, 827);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label32);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.simulacion);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.simulacion);
             this.Name = "Form1";
             this.Text = "Ejercicio 216";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSimulacion)).EndInit();
@@ -949,7 +873,6 @@ namespace Ejercicio216_FInalSIM
             this.groupBox4.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
@@ -1029,13 +952,6 @@ namespace Ejercicio216_FInalSIM
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
     }
