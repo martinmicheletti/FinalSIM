@@ -101,7 +101,6 @@ namespace Ejercicio216_FInalSIM
             this.txtTiempoHastaSimulacion = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSimulacion)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -174,7 +173,6 @@ namespace Ejercicio216_FInalSIM
             this.dgvSimulacion.RowTemplate.Height = 25;
             this.dgvSimulacion.Size = new System.Drawing.Size(1657, 647);
             this.dgvSimulacion.TabIndex = 0;
-            this.dgvSimulacion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSimulacion_CellContentClick);
             // 
             // Reloj
             // 
@@ -392,7 +390,6 @@ namespace Ejercicio216_FInalSIM
             this.labelSegundosTiempoAtencion.Size = new System.Drawing.Size(58, 15);
             this.labelSegundosTiempoAtencion.TabIndex = 7;
             this.labelSegundosTiempoAtencion.Text = "segundos";
-            this.labelSegundosTiempoAtencion.Click += new System.EventHandler(this.labelSegundosTiempoAtencion_Click);
             // 
             // txtSegundosTiempoAtencion
             // 
@@ -552,7 +549,7 @@ namespace Ejercicio216_FInalSIM
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1271, 15);
+            this.label11.Location = new System.Drawing.Point(215, 20);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 15);
             this.label11.TabIndex = 10;
@@ -624,11 +621,11 @@ namespace Ejercicio216_FInalSIM
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.comboBox1);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.txtTiempoSimulacion);
             this.groupBox4.Controls.Add(this.label15);
+            this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.txtTiempoHastaSimulacion);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label12);
@@ -640,18 +637,6 @@ namespace Ejercicio216_FInalSIM
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Simulacion";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "horas",
-            "minutos"});
-            this.comboBox1.Location = new System.Drawing.Point(215, 17);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(64, 23);
-            this.comboBox1.TabIndex = 19;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -661,7 +646,6 @@ namespace Ejercicio216_FInalSIM
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.simulacion);
@@ -738,7 +722,6 @@ namespace Ejercicio216_FInalSIM
         private System.Windows.Forms.DataGridViewTextBoxColumn ColaMaxima;
         private System.Windows.Forms.DataGridViewTextBoxColumn TiempoEsperaCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn PromedioEsperaClientes;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

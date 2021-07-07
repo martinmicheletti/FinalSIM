@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin\\Work\\Projects\\Ejercicio216_FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj": {}
+    "C:\\Users\\Administrador\\Documents\\GitHub\\FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin\\Work\\Projects\\Ejercicio216_FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj": {
+    "C:\\Users\\Administrador\\Documents\\GitHub\\FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\Work\\Projects\\Ejercicio216_FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj",
         "projectName": "Ejercicio216_FInalSIM",
-        "projectPath": "C:\\Users\\Martin\\Work\\Projects\\Ejercicio216_FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj",
-        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\Work\\Projects\\Ejercicio216_FinalSIM\\Ejercicio216_FInalSIM\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\FinalSIM\\Ejercicio216_FInalSIM\\Ejercicio216_FInalSIM.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\FinalSIM\\Ejercicio216_FInalSIM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

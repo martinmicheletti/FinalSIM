@@ -51,6 +51,7 @@ namespace Ejercicio216_FInalSIM
                 double tiempoTurnoEmpleado = Convert.ToDouble(txtTiempoTurnoEmpleado.Text);
                 double tiempoCambioTurnoA = Convert.ToDouble(txtTiempoCambioTurnoA.Text);
                 double tiempoCambioTurnoB = Convert.ToDouble(txtTiempoCambioTurnoB.Text);
+
                 if (tiempoCambioTurnoA > tiempoCambioTurnoB)
                 {
                     double a = tiempoCambioTurnoA;
@@ -194,19 +195,6 @@ namespace Ejercicio216_FInalSIM
                                             relojSimulacion = proximoResumenAtencionAcumulador;
                                         }
 
-                                        //if (relojSimulacion > tiempoASimular)
-                                        //{
-                                        //    int idx = dgvSimulacion.Rows.Add();
-                                        //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-
-                                        //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                        //    row.Cells["Evento"].Value = eventoActual;
-                                        //    row.Cells["RNDLlegada"].Value = rnd.ToString();
-                                        //    row.Cells["TiempoLlegadaCliente"].Value = getLocalHour(proximaLlegadaCliente);
-                                        //    row.Cells["ProximaLlegadaCliente"].Value = getLocalHour(proximaLlegadaClienteAcumulador);
-                                        //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                        //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                        //}
                                     }
                                     else
                                     {
@@ -291,36 +279,11 @@ namespace Ejercicio216_FInalSIM
                                             relojSimulacion = proximoFinAtencionAcumulador;
                                             proximoEvento = "Fin de atencion cliente";
                                         }
-
-                                        //if (relojSimulacion > tiempoASimular)
-                                        //{
-                                        //    int idx = dgvSimulacion.Rows.Add();
-                                        //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-                                        //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                        //    row.Cells["Evento"].Value = eventoActual;
-                                        //    row.Cells["RNDLlegada"].Value = rnd.ToString();
-                                        //    row.Cells["TiempoLlegadaCliente"].Value = getLocalHour(proximaLlegadaCliente);
-                                        //    row.Cells["ProximaLlegadaCliente"].Value = getLocalHour(proximaLlegadaClienteAcumulador);
-                                        //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                        //    row.Cells["RNDAtencion"].Value = rndAtencion;
-                                        //    row.Cells["TiempoAtencion"].Value = getLocalHour(tiempoAtencionCliente);
-                                        //    row.Cells["ProximoFinAtencion"].Value = getLocalHour(proximoFinAtencionAcumulador);
-                                        //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                        //}
                                     }
                                 }
                             else
                             {
                                // Hay personas en la cola ó se esta atendiendo un cliente
-
-                                    if (nuevaVentanilla)
-                                    {
-
-                                    } else
-                                    {
-
-                                    }
-
 
                                     cliente.setHoraIngresoCola(relojSimulacion);
                                     colaAtencion.Enqueue(cliente);
@@ -355,19 +318,6 @@ namespace Ejercicio216_FInalSIM
                                             relojSimulacion = proximoFinAtencionAcumulador;
                                             proximoEvento = "Fin de atencion cliente";
                                         }
-                                        //if (relojSimulacion > tiempoASimular)
-                                        //{
-                                        //    int idx = dgvSimulacion.Rows.Add();
-                                        //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-
-                                        //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                        //    row.Cells["Evento"].Value = eventoActual;
-                                        //    row.Cells["RNDLlegada"].Value = rnd.ToString();
-                                        //    row.Cells["TiempoLlegadaCliente"].Value = getLocalHour(proximaLlegadaCliente);
-                                        //    row.Cells["ProximaLlegadaCliente"].Value = getLocalHour(proximaLlegadaClienteAcumulador);
-                                        //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                        //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                        //}
                                     } else
                                     {
                                         if (proximaLlegadaClienteAcumulador < proximoResumenAtencionAcumulador)
@@ -381,31 +331,9 @@ namespace Ejercicio216_FInalSIM
                                             relojSimulacion = proximoResumenAtencionAcumulador;
                                         }
 
-                                        //if (relojSimulacion > tiempoASimular)
-                                        //{
-                                        //    int idx = dgvSimulacion.Rows.Add();
-                                        //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-
-                                        //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                        //    row.Cells["Evento"].Value = eventoActual;
-                                        //    row.Cells["RNDLlegada"].Value = rnd.ToString();
-                                        //    row.Cells["TiempoLlegadaCliente"].Value = getLocalHour(proximaLlegadaCliente);
-                                        //    row.Cells["ProximaLlegadaCliente"].Value = getLocalHour(proximaLlegadaClienteAcumulador);
-                                        //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                        //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                        //}
+                                        
                                     }
-                                    //if (proximaLlegadaClienteAcumulador < proximoFinAtencionAcumulador)
-                                    //{
-                                    //    relojSimulacion = proximaLlegadaClienteAcumulador;
-                                    //    proximoEvento = "Llegada cliente";
-
-                                    //}
-                                    //else
-                                    //{
-                                    //    relojSimulacion = proximoFinAtencionAcumulador;
-                                    //    proximoEvento = "Fin de atencion cliente";
-                                    //}
+                                    
                             }
                         }
                             else if (proximoEvento == "Fin de atencion cliente")
@@ -458,15 +386,6 @@ namespace Ejercicio216_FInalSIM
                                                 dejaLibreServidor1 = true;
                                             }
                                         }
-
-                                        //if (clienteEnAtencion.getHoraFinAtencion() < clienteEnAtencionServidor2.getHoraFinAtencion())
-                                        //{
-                                        //    eventoActual = "Fin atencion " + clienteEnAtencion.toString();
-                                        //}
-                                        //else
-                                        //{
-                                        //    eventoActual = "Fin atencion " + clienteEnAtencionServidor2.toString();
-                                        //}
 
                                     } else
                                     {
@@ -591,22 +510,6 @@ namespace Ejercicio216_FInalSIM
                                             proximoEvento = "Fin de atencion cliente";
                                         }
 
-                                        //if (relojSimulacion > tiempoASimular)
-                                        //{
-                                        //    idx = dgvSimulacion.Rows.Add();
-                                        //    row = dgvSimulacion.Rows[idx];
-
-                                        //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                        //    row.Cells["Evento"].Value = eventoActual;
-
-                                        //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                        //    row.Cells["RNDAtencion"].Value = rndAtencion;
-                                        //    row.Cells["TiempoAtencion"].Value = getLocalHour(tiempoAtencionCliente);
-                                        //    row.Cells["ProximoFinAtencion"].Value = getLocalHour(proximoFinAtencionAcumulador);
-                                        //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                        //    row.Cells["TiempoEsperaCliente"].Value = getLocalHour(tiempoEsperaCliente);
-                                        //    row.Cells["PromedioEsperaClientes"].Value = getLocalHour(tiempoPromedioEsperaCliente);
-                                        //}
                                     }
                                     else
                                     {
@@ -734,23 +637,6 @@ namespace Ejercicio216_FInalSIM
                                         proximoEvento = "Fin de atencion cliente";
                                     }
 
-                                    //if (relojSimulacion > tiempoASimular)
-                                    //{
-                                    //    int idx = dgvSimulacion.Rows.Add();
-                                    //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-
-                                    //    row.Cells["Reloj"].Value = getLocalHour(relojSimulacion);
-                                    //    row.Cells["Evento"].Value = eventoActual;
-                                    //    // ...
-                                    //    row.Cells["ColaAtencion"].Value = colaAtencion.Count;
-                                    //    row.Cells["RNDAtencion"].Value = rndAtencion;
-                                    //    row.Cells["TiempoAtencion"].Value = getLocalHour(tiempoAtencionCliente);
-                                    //    row.Cells["ProximoFinAtencion"].Value = getLocalHour(proximoFinAtencionAcumulador);
-                                    //    row.Cells["ColaMaxima"].Value = colaMaxima;
-                                    //    row.Cells["TiempoEsperaCliente"].Value = getLocalHour(tiempoEsperaCliente);
-                                    //    row.Cells["PromedioEsperaClientes"].Value = getLocalHour(tiempoPromedioEsperaCliente);
-                                    //}
-
                                     } else
                                 {
                                     // Resumo atencion y no hay nadie en cola
@@ -768,11 +654,6 @@ namespace Ejercicio216_FInalSIM
                             eventoActual = "Cambio empleado";
 
                             EventoCambioEmpleado eventoCambioEmpleado = colaEventoCambioEmpleado.Dequeue();
-
-                            //if (colaEventoCambioEmpleado.Count == 0)
-                            //{
-                            //    colaEventoCambioEmpleado.Enqueue(eventoCambioEmpleado);
-                            //}
 
                             double rndCambioEmpleado = random.NextDouble();
 
@@ -792,31 +673,12 @@ namespace Ejercicio216_FInalSIM
                                 row.Cells["TiempoCambioEmpleado"].Value = getLocalHour(tiempoCambioEmpleado);
                                 row.Cells["ProximoResumenAtencion"].Value = getLocalHour(proximoResumenAtencionAcumulador);
                             }
-                            //if (proximaLlegadaClienteAcumulador < proximoResumenAtencionAcumulador)
-                            //{
-                            //    relojSimulacion = proximaLlegadaClienteAcumulador;
-                            //    proximoEvento = "Llegada cliente";
-                            //}
 
                             if (proximoResumenAtencionAcumulador < relojSimulacion )
                             {
                                 proximoEvento = "Reanudación atención";
                                 relojSimulacion = proximoResumenAtencionAcumulador;
                             }
-
-                            //if (relojSimulacion > tiempoASimular)
-                            //{
-                            //    int idx = dgvSimulacion.Rows.Add();
-                            //    DataGridViewRow row = dgvSimulacion.Rows[idx];
-
-                            //    row.Cells["Reloj"].Value = getLocalHour(eventoCambioEmpleado.getHoraInicio());
-                            //    row.Cells["Evento"].Value = eventoActual;
-                            //    row.Cells["RNDCambioEmpleado"].Value = rndCambioEmpleado;
-                            //    row.Cells["TiempoCambioEmpleado"].Value = getLocalHour(tiempoCambioEmpleado);
-                            //    row.Cells["ProximoResumenAtencion"].Value = getLocalHour(proximoResumenAtencionAcumulador);
-
-                            //}
-
                             }
                     }
                 }
@@ -1005,26 +867,6 @@ namespace Ejercicio216_FInalSIM
             }
 
             return  days + hourString + ":" + minuteString + ":" + secondString;
-        }
-
-        private void dgvSimulacion_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void labelSegundosTiempoAtencion_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
